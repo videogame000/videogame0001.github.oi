@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+   
+}
+
+
+/* Style the header */
+.header {
+    background-color:#DB3F66;
+    padding: 0.1px;
+    text-align: center;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    font-size: 19px;
+    background-color: #111;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin:7px;
+  }
+  
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #111;
+  }
+
+
+
+    .pic
+    {
+    float:left;
+    width:50px;
+    height:50px;
+    padding-left:30px;
+    padding-top:20px;
+    padding-bottom:0px;
+    }
+
+    
+    
+
+    .main { width: 100%; min-height: 100vh; display: flex; align-items: center; background: url(https://i.pinimg.com/originals/f0/28/f7/f028f777819970eb6e4a17cdf389eb28.gif); background-size: cover; background-position: center;}
+
+
+
+    .essay{font-size: large; overflow:hidden; padding: 30px; font-style: oblique; margin: 15px }
+
+
+
+    .skins{display: flex; justify-content:left; color:#1d215b; font-size: 2em; font-weight: 700; position:static; margin:40px}
+
+
+
+   
+
+    .ashe{background-color:#5b62a037; overflow:hidden;}
+    .ashe .feat {float:left; width:50%; color:black; font-family:candara; text-align:center; padding-top:80px; font-size:20px;}
+    .ashe .feat p{text-align:center; font-size:20px; line-height:1.5; font-weight:normal;}
+    .ashe img{float:right; width:50%;}
+    .ashe .feat a{padding-top: 20px; text-decoration:none; color:black; font-family:candara; font-weight:bold; border: 1px solid black; border-radius:20px; padding:8px; font-size:14px;}
+
+
+    .ashe-skin{background-color:#f9f9f9; overflow:hidden;}
+    .ashe-skin .feat {float:right; width:50%; color:black; font-family:candara; text-align:center; padding-top:80px; font-size:20px;}
+    .ashe-skin .feat p{text-align:center; font-size:18px; line-height:1.5; font-weight:bold;}
+    .ashe-skin  img{float:left; width:50%;}
+    .ashe-skin .feat a{padding-top: 20px; text-decoration:none; color:black; font-family:candara; font-weight:bold; border: 1px solid black; border-radius:20px; padding:8px; font-size:14px;}
+    
+
+    .list{background-color:#5b62a037; overflow:hidden;}
+    .list .feat{text-align:center; font-family:candara; font-weight:bold; color:#fff;}
+    .list .feat h3{font-size:17px; line-height:1.4; padding-bottom:5px;}
+    .list .fear a:hover {text-decoration:none;}
+
+
+    .kaisa{background-color:#f9f9f9; overflow:hidden;}
+    .kaisa .feat {float:left; width:50%; color:black; font-family:candara; text-align:center; padding-top:80px; font-size:20px;}
+    .kaisa .feat p{text-align:center; font-size:20px; line-height:1.5; font-weight:normal;}
+    .kaisa img{float:right; width:50%;}
+    .kaisa .feat a{padding-top: 20px; text-decoration:none; color:black; font-family:candara; font-weight:bold; border: 1px solid black; border-radius:20px; padding:8px; font-size:14px;}
+
+
+    
+    .menu{background-color:#5b62a037; overflow:hidden;}
+    .menu .feat{float:right; width:50%; color:#1d215b; font-family:candara; font-weight:bold; text-align:center;}
+    .menu .feat h1{font-size:50px; text-transform:uppercase; font-weight:bold; padding-top:70px; max-width:47em; letter-spacing:8px; line-height:1;}
+    .menu .feat p{text-align:center; font-weight:400; font-size:23px; line-height:1.5; letter-spacing:0.2px;}
+    .menu img{float:left; width:50%;}
+    .menu .feat a{text-decoration:none; color:#1d215b; font-family:candara; font-weight:bold; border: 1px solid #1d215b; border-radius:20px; padding:8px; font-size:14px;}
+    
+
+    
+    
+
+
+        h3 {
+        margin:10;
+        color: #1d215b;
+        font-size: 2.5em;
+        font-weight: 800;
+        margin:30px;
+         }
+
+        h2{color:#1d215b;}
+
+
+         /* form */
+         input[type=text],textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+
+          input[type=submit] {
+            background-color:#1d215b;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          
+          input[type=submit]:hover {
+            background-color: #5c45a0;
+          }
+          
+
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 50px;
+            width:100%;
+            float: left;            
+            background-image: url(images/jinx2.jpgg);
+            background-position: center;
+            background-size: cover;
+            
+          }
+       
+
+          .card {
+            background-color: #fff;
+            width: 37em;
+            box-shadow: 0 5px 25px rgba(22, 13, 57, 0.3);
+            border-radius: 13px;
+            padding: 25px;
+            margin: 15px;
+            border-spacing: 0px;
+            transition: 0.7s ease;
+            display:inline-block;
+           
+        }
+
+
+
+        .fa {
+          padding: 20px;
+          font-size: 30px;
+          width: 50px;
+          text-align: center;
+          text-decoration: none;
+          margin: 5px 2px;
+          position: relative;
+          left: 35px;
+      }
+      
+      .fa:hover{
+          opacity: 0.7;
+      }
+      
+      .fa-facebook{
+          background: #3B5998;
+          color:white;
+      
+      }
+      
+      
+      .fa-twitter{
+          background: #55ACEE;
+          color:white;
+      
+      }
+      
+      .fa-instagram{
+          background: #125688;
+          color:white;
+      }
+      
+      
+
+        .footer{
+          position: relative;
+          bottom: 50;
+          left: 0;
+          right: 0;
+          height: 50%;
+          width: 100%;
+          padding-top: 40px;
+          color: rgb(255, 255, 255);
+          background-color: black;
+      }
+      .footer-content{
+          display: flex;
+          align-items: right;
+          justify-content: center;
+          flex-direction: column;
+          text-align: center;
+      }
+      .footer-content h3{
+          font-size: 2.1rem;
+          font-weight: 500;
+          text-transform: capitalize;
+          line-height: 3rem;
+      }
+      .footer-content p{
+          max-width: 500px;
+          margin: 10px auto;
+          line-height: 28px;
+          font-size: 14px;
+          color: #cacdd2;
+      }
+
+      .foot{
+        color: white;
+      }
+      
+      
+    
+
+
+           
+
+
+      

@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.vvv{
+    background: linear-gradient(rgb(159, 25, 25) ,rgb(0, 0, 0));
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    background-attachment: fixed;
+}
+.themes{
+    background: linear-gradient(rgb(59, 25, 159) ,rgb(0, 0, 0));
+    height: 100vh;
+    width: 100%;
+    color: aliceblue;
+    background-attachment: fixed;    
+}
+.topnav {
+    overflow: hidden;
+    background-color: #111;
+  }
+  .topnav a {
+    float: right;
+    margin-right:62px ;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #111;
+  }
+.b{
+    width: 80%;
+    background: rgba(0, 0, 0, 0.93);
+    border-radius: 20px;
+    background-image: url(z.jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: right;
+    margin-left: 130px;
+}
+.b h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgb(157, 1, 1);
+    margin-left: 18px;
+    padding-top: 15px;
+}
+.b table img{
+    padding-left:16px ;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #474747;
+  }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+nav .logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    
+}
+nav ul li{
+    display: inline-block; /* on one line*/
+    margin: 0 6px; /*space between home , chracter ,about*/
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 350;
+}
+nav ul li a:hover{
+    color: #ff0400;
+}
+.search-54{
+    position: absolute;
+    background: white;
+    height: 30px;
+    border-radius: 30px;
+    padding: 8px;
+    margin-left: 38%;
+}
+.search-54-text{
+    border: none;
+    background: white;
+    outline: none;
+    font-size: 17px;
+    
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    background: #dd0805;
+    transform: translateY(-7px);
+    color: #fff;
+    box-shadow: 0px 10px 25px rgba(255, 39, 39, 0.441); 
+}
+.icon{
+    display:inline-block;
+    margin-left: 30px;
+    font-size: 40px;
+    animation: float 5s ease-in-out infinite ;
+
+}
+.ri-instagram-line{
+    color: rgb(254, 251, 255);
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+ 
+}
+.ri-facebook-circle-line{
+    color: #003ffc;
+    animation-delay: 1s ;
+}
+.ri-whatsapp-line{
+    color: #25d366;
+    animation-delay: 2s ;
+}
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+textarea {
+    color: rgb(0, 0, 0);
+    width: 350px;
+    height: 150px;
+    padding-left: 12px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+input{
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    padding-left: 12px;
+    margin-left: 18px;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px rgb(157, 1, 1);
+    margin-left: 20px;
+    padding-top: 15px;
+}
+footer{
+    position: relative;
+    bottom: 50;
+    left: 0;
+    right: 0;
+    background: rgb(0, 0, 0);
+    height: auto;
+    width: fit-content;
+    padding-top: 40px;
+   margin-left: 310px;
+    color: #fff;
+  
+  }
+  .footer-content{
+    display: flex;
+    justify-content:center; /*word in center*/
+    align-items:center ;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+  .footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+  }
+
+
+
+
